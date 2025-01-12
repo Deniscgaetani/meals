@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MaindDrawer extends StatelessWidget {
-  const MaindDrawer({super.key, required this.onSelectScreen});
+class MainDrawer extends StatelessWidget {
+  const MainDrawer({super.key, required this.onSelectScreen});
 
   final void Function(String identifier) onSelectScreen;
 
